@@ -1,0 +1,1063 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+nav {
+    display: flex;
+    height: 70px;
+    width: 1fr;
+    border-collapse: collapse;
+    border-bottom: 1px solid #eee;
+
+
+}
+
+body {
+    margin: 0;
+}
+
+.logoblack {
+    float: left;
+
+    padding-left: 80px;
+    padding-top: 22px;
+    width: 240px;
+    height: 48px;
+}
+
+.business {
+
+    display: flex;
+    align-items: center;
+    width: 245px;
+    height: 70px;
+    border-right: 1px solid #eee;
+    border-left: 1px solid #eee;
+}
+
+.business:hover {
+    cursor: pointer;
+}
+
+.business img {
+    height: 21px;
+    padding-right: 15px;
+    padding-left: 25px;
+}
+
+.business h3 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+}
+
+.business p {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 12px;
+    font-family: Inter, sans-serif;
+    line-height: 18px;
+}
+
+.property {
+
+    display: flex;
+    align-items: center;
+    width: 220px;
+    height: 70px;
+    border-right: 1px solid #eee;
+}
+
+.property:hover {
+    cursor: pointer;
+}
+
+.property img {
+    height: 25px;
+    padding-right: 15px;
+    padding-left: 25px;
+}
+
+.property h3 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+}
+
+.property p {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 12px;
+    font-family: Inter, sans-serif;
+    line-height: 18px;
+}
+
+.call {
+    display: flex;
+    align-items: center;
+    width: 200px;
+    height: 70px;
+    border-right: 1px solid #eee;
+}
+
+.call:hover {
+    cursor: pointer;
+}
+
+.call img {
+    height: 25px;
+    padding-right: 15px;
+    padding-left: 25px;
+}
+
+.call h3 {
+    color: #212121;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+}
+
+.call p {
+    color: rgba(0, 0, 0, 0.54);
+    font-size: 12px;
+    font-family: Inter, sans-serif;
+    line-height: 18px;
+}
+
+.lang {
+    width: 150px;
+    display: flex;
+    height: 70px;
+    align-items: center;
+    border-right: 1px solid #eee;
+}
+
+.lang:hover {
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.lang img {
+    height: 25px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.lang h3 {
+    display: flex;
+    font-size: 14px;
+    font-weight: 700;
+    padding-right: 10px;
+    font-family: Inter, sans-serif;
+    line-height: 18px;
+
+
+}
+
+.material-symbols-outlined {
+    display: flex;
+    align-items: right;
+
+}
+
+.profile {
+    padding-top: 20px;
+    display: flex;
+    margin-left: 12px;
+}
+
+.profile:hover {
+    cursor: pointer;
+    background-color: #eee;
+}
+
+.profile img {
+    display: flex;
+    align-items: center;
+    height: 27px;
+}
+
+
+.profileful img {
+    height: 27px;
+
+}
+
+.loginbutton {
+    display: inline-flex;
+    gap: 10px;
+    align-items: center;
+    height: 70px;
+    width: 168px;
+    background-color: white;
+    border: none;
+    padding-left: 10px;
+}
+
+.loginbutton:hover {
+    background-color: #eee;
+
+}
+
+.loginbutton h3 {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+.sub-header {
+    display: flex;
+    flex-direction: row;
+    padding-left: 60px;
+    height: 42px;
+    background-color: #f3f5f7;
+    width: 1fr;
+}
+
+.bangalore,
+.chennai,
+.delhi,
+.gurgaon,
+.hyderabad,
+.kolkata,
+.mumbai,
+.noida,
+.pune,
+.all-cities {
+    padding-left: 14px;
+    padding-right: 14px;
+    padding-top: 10px;
+    font-size: 14px;
+    font-weight: 400;
+    display: flex;
+    flex: 1;
+    font-family: Inter, sans-serif;
+    color: rgba(0, 0, 0, .7);
+}
+
+.bangalore:hover {
+    cursor: pointer;
+    background-color: rgb(250, 250, 250);
+}
+
+.chennai:hover {
+    cursor: pointer;
+    background-color: rgb(250, 250, 250);
+}
+
+.delhi:hover {
+    cursor: pointer;
+    background-color: rgb(250, 250, 250);
+}
+
+.gurgaon:hover {
+    cursor: pointer;
+    background-color: rgb(250, 250, 250);
+}
+
+.hyderabad:hover {
+    cursor: pointer;
+    background-color: rgb(250, 250, 250);
+}
+
+.kolkata:hover {
+    cursor: pointer;
+    background-color: rgb(250, 250, 250);
+}
+
+.mumbai:hover {
+    cursor: pointer;
+    background-color: rgb(250, 250, 250);
+}
+
+.noida:hover {
+    cursor: pointer;
+    background-color: rgb(250, 250, 250);
+}
+
+.noida:hover {
+    cursor: pointer;
+    background-color: rgb(250, 250, 250);
+}
+
+.pune:hover {
+    cursor: pointer;
+    background-color: rgb(250, 250, 250);
+}
+
+.all-cities:hover {
+    cursor: pointer;
+    color: rgb(255, 0, 0);
+}
+
+.serach-area {
+    display: flex;
+    flex-direction: column;
+    margin: 0%;
+    background-image: url("oyoimage/search-area-background.avif");
+    background-size: 1366px 256px;
+    height: 214px;
+    padding-top: 10px;
+    padding-bottom: 32px;
+    align-items: center;
+
+}
+
+/* head container*/
+.search-head {
+
+    margin-top: 26px;
+    margin-bottom: 16px;
+    text-align: center;
+    width: 995px;
+    height: 48;
+    justify-content: center;
+
+}
+
+/*head text*/
+.search-head h1 {
+    justify-content: center;
+    font-weight: 800;
+    color: #fff;
+    ;
+    font-size: 32px;
+    font-family: Inter, sans-serif;
+
+
+}
+
+/*search bar container containing place date room search*/
+.search-bar {
+    display: flex;
+    flex-direction: row;
+    width: 1006px;
+    background-color: white;
+    height: 58px;
+    border-radius: 3px;
+}
+
+/* place details*/
+.place {
+
+    width: 264px;
+
+    padding-left: 16px;
+    padding-top: 19px;
+    padding-right: 112px;
+    padding-bottom: 19px;
+
+}
+
+.place input {
+
+    height: 20px;
+    width: 260px;
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    border: none;
+    outline: none;
+}
+
+.place button img {
+    width: 15px;
+    height: 15px;
+    position: absolute;
+
+
+}
+
+.place button {
+    margin-left: 38px;
+    position: absolute;
+    top: 218px;
+    left: 430px;
+    border: none;
+    padding: 8px;
+    border-radius: 25px;
+    background-color: rgb(242, 242, 242);
+    font-family: Inter, sans-serif;
+    color: rgb(34, 34, 34);
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+.place button:hover {
+    cursor: pointer;
+}
+
+/* date coloumns*/
+.date {
+    width: 229px;
+
+    border-left: 1px solid gray;
+}
+
+.date p {
+    color: rgba(0, 0, 0, .87);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    position: absolute;
+    top: 223px;
+    left: 595px;
+}
+
+.date:hover {
+    cursor: pointer;
+}
+
+/*room and guest couloum*/
+.room-guest {
+    width: 220px;
+    border-left: 1px solid gray;
+}
+
+.room-guest p {
+    font-size: 16px;
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+    color: rgb(34, 34, 34);
+    position: absolute;
+    top: 223px;
+    left: 820px;
+
+}
+
+.room-guest:hover {
+    cursor: pointer;
+}
+
+/*search button*/
+.search {
+    position: absolute;
+    left: 1022px;
+    top: 203px;
+    width: 165px;
+    height: 60px;
+    background-color: #1ab64f;
+    border: none;
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    outline: none;
+    border-radius: 4px;
+
+}
+
+.search:hover {
+    cursor: pointer;
+    background-color: #0f7430;
+    transition: 0.2s;
+}
+
+/*search bar below contents*/
+.below-searchbar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: none;
+    width: 1007px;
+    height: 64px;
+    margin-top: 24px;
+}
+
+.continue-search p {
+
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    width: 190px;
+    text-shadow: 2px 4px 8px rgba(0, 0, 0, .2);
+    font-family: Inter, sans-serif;
+
+}
+
+.below-searchbar button {
+
+    width: 140px;
+    height: 40px;
+    background-color: transparent;
+    color: #fff;
+    border: 2px solid white;
+    border-radius: 4px;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+}
+
+.below-searchbar button:hover {
+    cursor: pointer;
+    background-color: #222;
+}
+
+/*main image*/
+section img {
+    margin-top: 50px;
+    margin-bottom: 32px;
+    padding: 0px 80px;
+    width: 1189px;
+    height: 258px;
+}
+
+/*sub image*/
+.sub-image img {
+    width: 1189px;
+    height: 128px;
+    margin: 32px 0px;
+    padding: 0px 80px;
+}
+
+/*small box containing email*/
+.small-box {
+    width: 1189px;
+    height: 102px;
+    margin: 20px 80px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    padding: 20p;
+    display: flex;
+    align-items: center;
+    border-radius: 6px;
+}
+
+.fire {
+    width: 56px;
+    height: 56px;
+    align-items: center;
+    padding: 20px;
+
+}
+
+.para-near-fire h3 {
+
+    color: #212121;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: Inter, sans-serif;
+    padding-left: 10px;
+}
+
+.para-near-fire p {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(0, 0, 0, 0.5);
+    font-family: Inter, sans-serif;
+    padding-left: 10px;
+}
+
+.email input {
+    outline: none;
+    margin-left: 220px;
+    width: 304px;
+    height: 24px;
+    border-radius: 6px;
+    padding: 11px;
+    border: 1px solid rgba(0, 0, 0, 0.12);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+
+}
+
+.email p {
+    padding: 0px 5px;
+    background-color: #fff;
+    position: absolute;
+    left: 710px;
+    top: 950px;
+    font-weight: 500;
+    font-size: 12px;
+    font-family: Inter, sans-serif;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+/* email near button*/
+.notify-me button {
+    margin-left: 16px;
+    padding: 12px 38px;
+    background-color: #ee2a24;
+    border: none;
+    height: 48px;
+    width: auto;
+    color: white;
+    border-radius: 6px;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.notify-me button:hover {
+    cursor: pointer;
+}
+
+/* last image container*/
+.bottom-area {
+    width: 100%;
+    height: 493px;
+    background-color: #f3f5f7;
+    display: flex;
+    padding: 40px 0px;
+}
+
+.global-image img {
+    width: 627px;
+    height: 353px;
+    padding-right: 40px;
+
+
+}
+
+.global-image {
+    margin: 0px 8px;
+}
+
+.text-global-image {
+    width: 667px;
+    height: 397px;
+
+}
+
+.h1-text-global-image {
+    width: 667px;
+    height: 31px;
+    color: #333;
+    font-size: 26px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+    margin: 26px 0px;
+}
+
+.h2-text-global-image {
+    margin-bottom: 16px;
+    color: rgba(0, 0, 0, .7);
+    font-size: 16px;
+    font-family: Inter, sans-serif;
+    width: 526.797px;
+    font-weight: 300;
+}
+
+.h4-text-global-image {
+    font-size: 32px;
+    color: rgba(0, 0, 0, .87);
+    transform: skewX(-30deg);
+    margin-right: 5px;
+    height: 50px;
+    /*height of the slide line*/
+    display: inline-block;
+    padding-right: 30px;
+    border-right: 1px solid rgba(0, 0, 0, .54);
+    ;
+
+}
+
+.h3-text-global-image,
+.h5-text-global-image {
+    display: inline-block;
+    font-size: 32px;
+    color: rgba(0, 0, 0, .87);
+    font-weight: 600;
+    font-family: Inter, sans-serif;
+
+}
+
+.h5-text-global-image {
+    padding-left: 20px;
+
+}
+
+.p-text-global-image {
+    position: absolute;
+    top: 1250px;
+    font-family: Inter, sans-serif;
+    color: rgba(0, 0, 0, .54);
+    font-size: 14px;
+}
+
+.h6-text-global-image {
+    position: absolute;
+    top: 1250px;
+    left: 820px;
+    font-family: Inter, sans-serif;
+    color: rgba(0, 0, 0, .54);
+    font-size: 14px;
+    font-weight: 400;
+
+}
+
+.place-container {
+    width: 667px;
+    height: 118px;
+    background-color: magenta;
+    margin: 40px 0px;
+
+}
+
+.first-row {
+    height: 59px;
+    width: 667px;
+    background-color: blue;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+
+}
+
+.first-row p {
+
+    text-align: center;
+
+}
+
+.round1,
+.round2,
+.round3,
+.round4,
+.round5,
+.round6 {
+    margin-right: 1rem;
+    width: 9px;
+    height: 9px;
+
+    border-radius: 50%;
+}
+
+.place-container {
+    font-weight: 600;
+    font-size: 16px;
+    color: rgba(0, 0, 0, .7);
+    font-family: Inter, sans-serif;
+}
+
+.round1 {
+    background-color: rgb(26, 182, 79);
+    position: absolute;
+    top: 1310px;
+    left: 685px;
+
+}
+
+.round2 {
+    background-color: rgb(255, 127, 123);
+    position: absolute;
+    top: 1310px;
+    left: 905px
+}
+
+.round3 {
+    background-color: rgb(245, 166, 35);
+    position: absolute;
+    top: 1310px;
+    left: 1128px
+}
+
+.round4 {
+    background-color: rgb(95, 214, 242);
+
+    position: absolute;
+    top: 1370px;
+    left: 685px;
+}
+
+.round5 {
+    background-color: rgb(254, 148, 241);
+
+    position: absolute;
+    top: 1370px;
+    left: 905px;
+}
+
+.round6 {
+    background-color: rgb(126, 137, 228);
+    position: absolute;
+    top: 1370px;
+    left: 1128px
+}
+
+.place-names {
+    width: 667px;
+    height: 118px;
+    margin: 40px 0px;
+    display: float;
+}
+
+.box {
+    width: 200px;
+    height: 59px;
+    float: left;
+    padding-left: 22px;
+}
+
+.box p {
+    color: rgba(0, 0, 0, .7);
+    font-family: Inter, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+
+}
+
+/* footer oyo white emplum box */
+
+.bar-above-footer {
+    display: flex;
+    background-color: #6d787d;
+    width: 1219px;
+    height: 48px;
+    padding: 24px 65px;
+    align-items: center;
+
+}
+
+.bar-above-footer img {
+
+    width: 90px;
+    height: 31px;
+
+}
+
+.bar-above-footer h2 {
+    padding-left: 20px;
+    color: #fff;
+    font-size: 22px;
+    font-family: Inter, sans-serif;
+    font-weight: 700;
+}
+
+.bar-above-footer button {
+
+    border: none;
+    padding: 12px 16px;
+    border-radius: 6px;
+    display: flex;
+    background-color: white;
+}
+
+.bar-above-footer button:hover {
+    cursor: pointer;
+}
+
+.bar-above-footer button div img {
+    width: 24px;
+    height: 24px;
+    padding-right: 10px;
+}
+
+.bar-above-footer button p {
+    padding-top: 7px;
+    color: #6f787c;
+    font-size: 12px;
+    font-weight: 700;
+    font-family: Inter, sans-serif;
+}
+
+/* appstore googleplay emploum olla full container */
+.footer-top {
+    width: 1189px;
+    height: 147px;
+    background-color: #6d787d;
+    padding: 30px 80px;
+    border-top: 1px solid #a6a6a6;
+    border-bottom: 1px solid #a6a6a6;
+    display: flex;
+}
+
+.left,
+.right {
+    width: 186px;
+    height: 147px;
+    padding: 0px 10px;
+
+}
+
+.right {
+    border-right: 1px solid #a6a6a6;
+    padding-right: 10px;
+}
+
+.left p,
+.right p {
+    color: #fff;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+    display: flex;
+}
+
+.left button,
+.right button {
+
+    width: 154px;
+    height: 52px;
+    background-color: black;
+    border: none;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    border: 1px solid #a6a6a6;
+    border-radius: 6px;
+}
+
+.left button,
+.right button:hover {
+    cursor: pointer;
+}
+
+.left button p,
+.right button p {
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 10px;
+    font-weight: 600;
+
+}
+
+.left button h2,
+.right button h2 {
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+
+}
+
+.apple img {
+    width: 21px;
+    height: 24px;
+    padding-left: 14px;
+    padding-right: 6px;
+}
+
+.left-top-para {
+    position: absolute;
+    color: #fff;
+    font-size: 14px;
+    font-family: Inter, sans-serif;
+}
+
+/* about middile grid */
+.middle,
+.right-box {
+    width: 379px;
+    height: 147px;
+
+    display: grid;
+    /* number of grid */
+    grid-template-columns: auto auto;
+    padding: 0px 32px;
+
+}
+
+.middle {
+    border-right: 1px solid #a6a6a6;
+}
+
+/* about term blogs all write small box */
+.grid-box {
+    margin: 10px 0px;
+    width: 192px;
+    height: 16px;
+}
+
+.grid-box a {
+    padding: 0px 4px;
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.main-footer {
+    width: 100%;
+    height: 424px;
+    background-color: #6d787d;
+
+}
+
+/* the div containnig the oyo hotel head and the grid div */
+.main-footer-center {
+    width: 1189px;
+    height: 359px;
+    padding: 32px 80px;
+
+
+}
+
+.main-footer-center h2 {
+    color: white;
+    font-size: 18px;
+    font-weight: 700px;
+    font-family: Inter, sans-serif;
+    margin-bottom: 10px;
+
+}
+
+/* the div that containg the grid */
+.grid-main-footer-center {
+    width: 1173px;
+    height: 327px;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    align-items: center;
+
+}
+
+.main-grid a {
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+    text-decoration: none;
+
+}
+
+/* when hover the cursor create underline */
+.grid-box a:hover,
+.main-grid a:hover {
+    text-decoration: underline;
+}
+
+/* full last container */
+.footer-bottom {
+    border-top: 1px solid #a6a6a6;
+    width: 100%;
+    height: 95px;
+    background-color: #6d787d;
+
+}
+
+/* full last container div inside*/
+.footer-bottom-container {
+    width: 1189px;
+    height: 34px;
+    padding: 30px 0px;
+    margin: 0px 80px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+.footer-bottom-container img {
+    width: 30px;
+    padding-right: 15px;
+}
+
+.footer-bottom-container img:hover {
+    cursor: pointer;
+}
+
+/* paragraph 2013 container */
+.footer-bottom-container-para {
+
+    width: 401px;
+    height: 14px;
+    margin-left: 570px;
+}
+
+.footer-bottom-container-para p {
+    color: white;
+    font-family: Inter, sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+}
